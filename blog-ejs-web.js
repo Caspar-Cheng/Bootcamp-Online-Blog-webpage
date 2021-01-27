@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-caspar:160423@caspardb.oc61l.mongodb.net/blogDB", {
+mongoose.connect("mongodb+srv://admin-caspar:<password>@caspardb.oc61l.mongodb.net/<dbname>", {
     useNewUrlParser: true,
     useUnifiedTopology: true
   });
